@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Conversor de Moeda</title>
+		<link rel="icon" href="image/Coin-PNG-image-HD.png" type="image/icon">
+		
+		<script src="conversor.js"></script>
+	</head>
+
+	<body>
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+
+		<div class="container">
+			<h1 class="page-title">Conversor de Moedas</h1>
+
+			<p class="page-subtitle">
+				Converta os valores para a moeda que deseja
+			</p>
+			<img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+			<label for="moeda">Insira o valor</label><br>
+			<select id="moeda1" class="moedas">
+				<option value="">-- Selecione a Moeda --</option>
+				<option value="dolar">Dólar</option>
+				<option value="dolarCanadense">Dólar Canadense</option>
+				<option value="real">Real</option>
+				<option value="euro">Euro</option>
+			</select>
+			<input type="number" id="valor" size="2" placeholder="Insert the value" /><br>
+			<select id="moeda2" class="moedas">
+				<option value="">-- Selecione a Moeda --</option>
+				<option value="dolar">Dólar</option>
+				<option value="dolarCanadense">Dólar Canadense</option>
+				<option value="real">Real</option>
+				<option value="euro">Euro</option>
+			</select>
+			<h2 id="valorConvertido"></h2><br>
+			<button type="submit" onclick="Converter()">Converter</button>
+			
+			
+		</div>	
+
+		<a href="https://alura.com.br/" target="_blank">
+		<img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="altura-logo">
+		
+	</body>
+</html>
