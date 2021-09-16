@@ -9,4 +9,5 @@
 </ul>
 
 <strong>All coins have fixed values!!! </strong>
+<strong>The style of this program was developed by Alura and edited some parts by me.</strong>
  
